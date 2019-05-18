@@ -1,6 +1,6 @@
 def square_array(array)
   #creates new arrray
-  array = [1, 2, 3, 4, 5]
+  
   new_array = []
   
 array.each do |a|
@@ -8,4 +8,4 @@ array.each do |a|
 end
 return new_array
 end
-square_array(arr)
+square_array([1, 2, 4, 5])
